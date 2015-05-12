@@ -32,7 +32,7 @@
 		if(arrow =='true'){
 		
 			// Add the Previous and Next Buttons
-			$slider.append("<a id='prev'><span aria-hidden='true' class='glyphicon glyphicon-chevron-left'></span></a><a id='next'><span aria-hidden='true' class='glyphicon glyphicon-chevron-right'></span></a>");
+			$slider.append("<a id='prev'></a><a id='next'></a>");
 			
 		}
 		
