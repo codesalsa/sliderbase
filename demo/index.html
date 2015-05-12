@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sliderbase Demo - by Codesalsa</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+		<link href="css/sliderbase.css" rel="stylesheet" type="text/css" />
+		<style>
+			body{
+				margin:0;
+				padding:0;
+			}
+			.container{
+				margin:100px auto 0;
+				max-width:1170px;
+				width:100%;
+				display:table;
+			}
+		</style>
+    </head>
+    <body>
+		<div class="container">
+			<div id="slider">
+				<ul class="slides">
+					<li class="slide"><img src="img/sliderbase-01.jpg" /></li>
+					<li class="slide"><img src="img/sliderbase-02.jpg" /></li>
+					<li class="slide"><img src="img/sliderbase-03.jpg" /></li>
+					<li class="slide"><img src="img/sliderbase-04.jpeg" /></li>
+					<li class="slide"><img src="img/sliderbase-05.jpeg" /></li>
+				</ul>
+			</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="../src/jquery.sliderbase.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('#slider').sliderBase({
+					'interval' : 5000,
+					'speed' : 500,
+					'arrow' : 'true',
+				});
+			});
+		</script>
+	</body>
+</html>

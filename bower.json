@@ -1,0 +1,14 @@
+{
+  "name": "sliderbase",
+  "version": "1.0",
+  "main": "dist/jquery.sliderbase.min.js",
+  "ignore": [
+    "css",
+    "img",
+    ".travis.yml",
+    "index.html"
+  ],
+  "dependencies": {
+    "jquery": ">=1.11.0"
+  }
+}
