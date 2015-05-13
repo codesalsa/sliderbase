@@ -69,5 +69,5 @@ Please see [CONTRIBUTE.md](CONTRIBUTE.md) for info on contributing.
 
 ## Demo
 
-<a href="http://codesalsa.net/sliderbase" target="_blank">Check out the demo</a> for more style and feature examples.
+<a href="http://codesalsa.net/demo/sliderbase" target="_blank">Check out the demo</a> for more style and feature examples.
 
